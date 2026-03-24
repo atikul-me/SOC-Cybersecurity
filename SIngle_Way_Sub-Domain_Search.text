@@ -1,0 +1,24 @@
+Note : Everything is for Educational purpose. Not to harm anything of people or company.
+
+First checkout any Website , here as an example I will choose a least secured website called alonkarfashion.com
+
+Then, we will visit and checkout the website fully.
+
+After that, We have to get a terminal from Kali linux or Ubuntu.
+
+Now Terminal Commands : 
+
+sudo apt-update
+sudo apt-upgrade
+sudo apt install Nmap
+nmap alongkarfashion.com  (Let us see the open ports)
+sudo apt install gobuster (Sub-domain searching tool, can use wordlists and fast process them to search sub-domains from a website domain)
+sudo apt install sectists (A huge amount of wordlist that can be used for search usernames, passwords, sub-domains etc.
+seclists
+cd Discovery
+cd Web-Content && ls
+gobuster dir -w common.txt -u alongkarfashion.com
+
+Now the searching process will begin and we can see the sub-domains whats match with the wordlists. There are a lot of wordlists inside seclists and we can use them one after another.
+
+We can also see the http code no. like 403(closed), 300, 200(open) etc.
