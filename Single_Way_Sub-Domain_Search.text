@@ -1,17 +1,17 @@
 Note : Everything is for Educational purpose. Not to harm anything of people or company.
 
-First checkout any Website , here as an example I will choose a least secured website called alonkarfashion.com
+First checkout any Website, here as an example I will choose a least secured website called alonkarfashion.com (just for an example)
 
 Then, we will visit and checkout the website fully.
 
-After that, We have to get a terminal from Kali linux or Ubuntu.
+After that, We have to get a terminal from Kali linux or Ubuntu or Parrot security OS.
 
 Now Terminal Commands : 
 
 sudo apt-update
 sudo apt-upgrade
 sudo apt install Nmap
-nmap alongkarfashion.com  (Let us see the open ports)
+nmap alongkarfashion.com  (Using this website just for an example. Let us see the open ports)
 sudo apt install gobuster (Sub-domain searching tool, can use wordlists and fast process them to search sub-domains from a website domain)
 sudo apt install sectists (A huge amount of wordlist that can be used for search usernames, passwords, sub-domains etc.
 seclists
