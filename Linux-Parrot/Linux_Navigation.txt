@@ -1,0 +1,53 @@
+Linux powers 90% of the internet's servers, 100% of supercomputers and most hacking tools.
+If anyone can't use the terminal, He/she can't do cyber.
+
+1. <b>The File System Hieararchy :</b> 
+
+Linux does not have C: It starts at Root /
+
+(i) / (Root) : The base
+
+(ii) /home : User diractories. (e.g.,/home/baris). Equivalent to C:Users.
+
+(iii) /etc : Configuration files. (e.g., /etc/passwd).
+
+(iv) /var : Variable data (Logs live in /var/log).
+
+(v) /bin : binaries (Programs) like ls.
+
+(vi) /tmp : Temporary files. Cleared on reboot.
+
+2. <b>Basic Commands :</b>
+
+
+ pwd(Print Working Directory) : Where am I? --------------
+Output : /home/kali
+
+
+ ls (List) : Show files ----------------------
+
+(i) ls -l : Long Listing (Permissions, Size, Owner)
+
+(ii) ls -a : All files (Including hidden files satrting with .)
+
+(iii) ls -la : Hidden + Long (Muscle Memory)
+
+
+cd (Change Directory) : Move --------------
+
+(i) cd Downloads : Go to Downloads 
+
+(ii) cd .. : go up one level
+
+(iii) cd ~ : Go home
+
+(iv) cd / : Go to root
+
+
+3. Absolute cs Relative Paths
+
+(i) Absolute : Full Address. Always works. 
+ex: cd/var/log/apache2
+
+(ii) Relative : Relative to where you are.
+ex : If you are in /var , you can type cd log
