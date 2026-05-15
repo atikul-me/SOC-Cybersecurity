@@ -1,7 +1,7 @@
 Linux powers 90% of the internet's servers, 100% of supercomputers and most hacking tools.
 If anyone can't use the terminal, He/she can't do cyber.
 
-1. <b>The File System Hieararchy :</b> 
+1. The File System Hieararchy :
 
 Linux does not have C: It starts at Root /
 
@@ -17,7 +17,7 @@ Linux does not have C: It starts at Root /
 
 (vi) /tmp : Temporary files. Cleared on reboot.
 
-2. <b>Basic Commands :</b>
+2. Basic Commands :
 
 
  pwd(Print Working Directory) : Where am I? --------------
