@@ -43,6 +43,13 @@ cd (Change Directory) : Move --------------
 
 (iv) cd / : Go to root
 
+(v) "echo" command can show texts just like cat.
+
+(vi) echo "Hello" > new.txt (creates a text file named new and store the word hello)
+     echo "World" >> new.txt (write with the new word. Now will be shown as Hello World)
+
+(vii) cat new.txt ( will show the text inside the new file)
+
 
 3. Absolute cs Relative Paths
 
